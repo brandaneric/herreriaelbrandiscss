@@ -1,0 +1,23 @@
+
+
+$colorDefondo : ff0000;
+
+
+*{
+    background-color: $colorDefondo;
+}
+.contenedor {
+   
+
+        height: 300px;
+        display: grid;
+        grid-template-rows: repeat(2, auto auto);
+        grid-template-areas: "header" "header"
+                             "main" "main"
+                             "footer" "footer";
+    p{
+        background-color : blue;
+    }                         
+    
+    
+}
